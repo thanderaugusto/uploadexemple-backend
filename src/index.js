@@ -26,4 +26,4 @@ app.use(morgan('dev'));
 app.use(require('./routes'));
 app.use('/files', express.static(path.resolve(__dirname, '..','tmp','upload')))
 
-app.listen(3000, console.log("Iniciado!!!"));
+app.listen(process.env.PORT || 3000);
