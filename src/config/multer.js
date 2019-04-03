@@ -50,7 +50,10 @@ module.exports = {
             'image/pjpeg',
             'image/png',
             'image/gif',
-            'application/octet-stream'
+            'application/octet-stream',
+            'application/pdf',
+            'application/x-rar-compressed'
+            
         ];
         if (allowedMimes.includes(file.mimetype)){
             cb(null, true);
