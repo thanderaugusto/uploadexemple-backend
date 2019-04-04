@@ -54,7 +54,12 @@ module.exports = {
             'application/pdf',
             'application/x-rar-compressed',
             'application/x-rar',
-            'application/rar'
+            'application/rar',
+            'image/vnd.adobe.photoshop',
+            'application/x-photoshop',
+            'application/photoshop',
+            'application/psd',
+            'image/psd'
             
         ];
         if (allowedMimes.includes(file.mimetype)){
