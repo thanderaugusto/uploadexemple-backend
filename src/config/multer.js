@@ -52,7 +52,9 @@ module.exports = {
             'image/gif',
             'application/octet-stream',
             'application/pdf',
-            'application/x-rar-compressed'
+            'application/x-rar-compressed',
+            'application/x-rar',
+            'application/rar'
             
         ];
         if (allowedMimes.includes(file.mimetype)){
